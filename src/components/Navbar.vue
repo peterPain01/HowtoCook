@@ -1,5 +1,5 @@
 <template >
-    <header class="bg-white shadow h-16 flex justify-between items-stretch px-4
+    <header class="bg-black shadow text-white font-semibold h-16 flex justify-between items-stretch px-4
                    ">
         <router-link :to="{ name: 'home' }" class="inline-flex items-center h-full">
                 <div class="flex flex-row gap-2">
@@ -11,17 +11,17 @@
         </router-link>
         <div class="flex items-center gap-2">
             <router-link :to="{ name: 'byName' }"
-                class="inline-flex items-center px-2 h-full transition-colors hover:bg-purple-200">
+                class="inline-flex items-center px-2 h-full transition-colors hover:bg-yellow-400">
                 Search Meals
             </router-link>
 
             <router-link :to="{ name: 'byLetter' }"
-                class="inline-flex items-center px-2 h-full transition-colors hover:bg-purple-200">
+                class="inline-flex items-center px-2 h-full transition-colors hover:bg-yellow-400">
                 Meals by Letter
             </router-link>
 
             <router-link :to="{ name: 'byIngredient' }"
-                class="inline-flex items-center px-2 h-full transition-colors hover:bg-purple-200">
+                class="inline-flex items-center px-2 h-full transition-colors hover:bg-yellow-400">
                 Meals By Ingredients
             </router-link>
         </div>
